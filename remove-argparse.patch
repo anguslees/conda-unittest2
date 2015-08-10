@@ -1,0 +1,11 @@
+--- setup.py.orig	2015-08-10 14:49:16.918594298 +1000
++++ setup.py	2015-08-10 14:54:51.526528124 +1000
+@@ -57,7 +57,7 @@
+ # Both install and setup requires - because we read VERSION from within the
+ # package, and the package also exports all the APIs.
+ # six for compat helpers
+-REQUIRES = ['argparse', 'six>=1.4', 'traceback2'],
++REQUIRES = ['six>=1.4', 'traceback2'],
+ 
+ params = dict(
+     name=NAME,

@@ -1,0 +1,4 @@
+package: unittest2
+script:
+  - conda build .
+build_targets: conda
